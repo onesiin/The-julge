@@ -6,7 +6,7 @@ export default function LoginUi() {
   const router = useRouter();
 
   const handleSignupClick = () => {
-    router.push("/page/signup");
+    router.push("/signup");
   };
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">

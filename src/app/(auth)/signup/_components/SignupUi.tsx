@@ -6,7 +6,7 @@ export default function SignupUi() {
   const router = useRouter();
 
   const handleLoginClick = () => {
-    router.push("/page/login");
+    router.push("/login");
   };
 
   return (

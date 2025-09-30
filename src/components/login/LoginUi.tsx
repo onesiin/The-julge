@@ -10,9 +10,8 @@ export default function LoginUi() {
     router.push("/signup");
   };
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen #ffffff font-['Spoqa_Han_Sans_Neo']">
+    <div className="flex flex-col items-center justify-center min-h-screen #ffffff">
       <Image src="/logo.svg" alt="logo" width={248} height={45} className="rounded mb-8" />
-
       <div className="w-[350px] mb-4">
         <span className="block text-gray-700 text-sm font-medium mb-2">이메일</span>
         <input

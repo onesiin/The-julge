@@ -10,7 +10,7 @@ export default function SignupUi() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
+    <div className="flex flex-col items-center justify-center min-h-screen #ffffff font-['Spoqa_Han_Sans_Neo']">
       <h1 className="text-2xl font-bold text-gray-700 mb-4">개발중입니다</h1>
       <button onClick={handleLoginClick} className="text-[#EA3C12] hover:underline font-medium">
         로그인으로 돌아가기

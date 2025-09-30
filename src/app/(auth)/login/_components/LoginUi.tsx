@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function LoginUi() {
   const router = useRouter();
@@ -9,9 +10,8 @@ export default function LoginUi() {
     router.push("/signup");
   };
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
-      {/* 로고 이미지 가져와서 붙여넣기 */}
-      <div className="w-[248px] h-[45px] bg-[#EA3C12] rounded mb-8"></div>
+    <div className="flex flex-col items-center justify-center min-h-screen #ffffff font-['Spoqa_Han_Sans_Neo']">
+      <Image src="/logo.svg" alt="logo" width={248} height={45} className="rounded mb-8" />
 
       <div className="w-[350px] mb-4">
         <span className="block text-gray-700 text-sm font-medium mb-2">이메일</span>

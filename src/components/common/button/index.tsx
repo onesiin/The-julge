@@ -39,7 +39,7 @@ const Button: React.FC<ButtonProps> = ({
   // variant별 스타일
   const VARIANT_STYLES = {
     primary: "bg-primary-20 text-white hover:bg-primary-10 focus:ring-primary-20",
-    outlined: "bg-white text-primary border border-primary-20 hover:bg-red-10 focus:ring-primary-20",
+    outlined: "bg-white text-primary-20 border border-primary-20 hover:bg-red-10 focus:ring-primary-20",
     blue: "bg-white text-blue-20 border border-blue-20 hover:bg-blue-10 focus:ring-blue-20",
   };
 
